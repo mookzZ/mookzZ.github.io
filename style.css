@@ -19,7 +19,11 @@
     align-items: center;
     padding: 200px 450px;
 }
-
+@media (max-width: 700px) {
+    .main {
+        background: black;
+    }
+}
 @media (max-width: 700px) {
     .main {
         flex-direction: column;
